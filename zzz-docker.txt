@@ -1,0 +1,5 @@
+sudo service docker start
+docker ps -a
+docker start pg-ignite-nodejs-03
+docker-compose up -d
+docker-compose stop
